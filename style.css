@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+}
+.headerleft img{
+    height: 35px;
+}
+.icon{
+border-radius: 50%;
+width: 35px;
+}
+.header{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position:sticky;
+   background-color: white;
+   z-index: 100;
+   box-shadow: 0px 5px 7px -9px rgba(0, 0,0, 0.74);
+}
+.headerleft{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.headerinput{
+    display: flex;
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin: 0px 10px;
+    border-radius: 300px;
+    
+}
+.headerinput input{
+    background-color:transparent;
+    border: none;
+    outline-width: 0;
+border-radius: 300px;}
+.headermiddle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.headeroptions .material-symbols-outlined{
+font-size: xx-large;
+color: grey;
+
+}
+.material-symbols-outlined:hover {
+    color: rgb(0, 217, 255);
+}
+.headeroptions{
+    display: flex;
+    
+}
+.headeroptions span{
+    padding: 10px 30px;
+    cursor: pointer;
+    align-items: center;
+}
+.material-symbols-outlined:active{
+    color:rgb(0, 217, 255) ;
+}
+.material-symbols-outlined:active{
+    border-bottom:3px solid rgb(0, 217, 255) ; 
+}
+.sam{
+    border-bottom: 3px solid rgb(68, 0, 255) ;
+}
+.headerinfo{
+    display: flex;
+    align-items: center;
+}
+.headerinfo h4{
+    margin-left: 10px;
+}
+.headerright{
+    display: flex;
+    align-items: center;
+}
+.headerright span{
+    padding: 10px 30px;
+    cursor: pointer;
+    align-items: center;
+}
+/* sidebar
+ */
+ .sidebar{
+     display: flex;
+     align-items: center;
+     padding: 10px;
+     cursor: pointer;
+ }
+ .sidebar:hover{
+     background-color:lightgrey ;
+ }
+ .sidebar h4{
+     margin-left: 15px;
+     font-weight: 500;
+
+ }
+ .sidebar .material-symbols-outlined{
+    font-size: xx-large;
+    color: grey;}
+    .story{
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 120px;
+        height: 200px;
+        box-shadow: 0px 5px 17px -7px rgba(0, 0,0, 0.74);
+        border-radius: 10px;
+        margin-right: 10px;
+        cursor: pointer;
+        margin-left: 10px;
+        transition: transform 100ms ease-in ;
+
+
+    }
+    .story:hover{
+       transform: scale(1.07);
+    }
+    .story img{
+        height: 40px;
+        width: 40px;
+        margin-top: 10px;
+        padding: 10px;
+    }
+    .text{
+        color: white;
+    }
+    .storyreels{
+        padding: 10px;
+        display: flex;
+        flex-direction: row;
+    }
+    .mainbody{
+        display: flex;
+    }
+    .mainbd{
+        display: flex;
+        flex-direction: column;
+    }
+    .messagetop{
+        display: flex;
+        flex-direction: row;
+    }
+    .messagebottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 10px;
+    }
+    .messagetop img{
+        height: 35px;
+        width: 35px;
+        margin-left: 15px;
+        margin-top: 8px;
+    }
+    .messagetop input{
+        width: 600px;background-color: #eff2f5;
+        height: 35px;
+        margin-top: 8px;
+        margin-left: 15px;
+        border-radius: 20px;
+        border: none;
+        outline-width: 0px;
+      text-align: end;
+    }
+    .messagesender{
+        padding: 15px;
+        
+        border-radius: 20px;
+    }
+    body::before{
+        background-color: #eff2f5;
+    }
+    .posttopinfo{
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-left: 10px;
+        padding: 8px;
+    }
+    .posttopinfo h4{
+        margin:5px 5px ;
+    }
+    .posttopinfo img{
+        height: 35px;
+        width: 35px;
+    }
+    .post{
+        height: 400px;
+        width: 680px;
+        background-color: #eff2f5;
+    }
+    .postbottominfo{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .posttop img{
+       margin: 20px 30px;
+       
+    }
+    .posttop{
+        justify-content: center;
+        margin: auto;
+        border-radius: 50px;
+    }
+    .postbottominfo span:hover{
+        background-color:rgba(255, 255, 255, 0.753);
+    }
+    .fb-page{
+        width: 800px;
+    }
